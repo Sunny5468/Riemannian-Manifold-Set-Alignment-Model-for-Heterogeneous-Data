@@ -1,0 +1,48 @@
+{
+  "train_start_time": "2026-03-25T21:24:41",
+  "seed": 42,
+  "epochs": 40,
+  "batch_size": 32,
+  "lr": 0.001,
+  "protocol": "LOSO",
+  "modes": [
+    "eeg"
+  ],
+  "n_trials": 1740,
+  "n_subjects": 29,
+  "results": {
+    "eeg": {
+      "summary": {
+        "accuracy": {
+          "mean": 0.6683908045977012,
+          "std": 0.09993498159976504
+        },
+        "balanced_accuracy": {
+          "mean": 0.6683908045977012,
+          "std": 0.09993498159976502
+        },
+        "precision_macro": {
+          "mean": 0.6961578952513023,
+          "std": 0.1051577663162253
+        },
+        "recall_macro": {
+          "mean": 0.6683908045977012,
+          "std": 0.09993498159976502
+        },
+        "f1_macro": {
+          "mean": 0.6474783297522351,
+          "std": 0.11971430110316897
+        },
+        "auc": {
+          "mean": 0.7432950191570882,
+          "std": 0.14361958703875835
+        }
+      },
+      "n_folds": 29,
+      "confusion_matrix_png": "C:\\Users\\35696\\Desktop\\国自然项目\\results\\pipeline_runs\\figures\\cm_loso_eeg_seed42.png",
+      "train_curve_png": "C:\\Users\\35696\\Desktop\\国自然项目\\results\\pipeline_runs\\figures\\curve_loso_eeg_seed42.png"
+    }
+  },
+  "train_end_time": "2026-03-25T21:42:12",
+  "train_duration_seconds": 1051.254615
+}

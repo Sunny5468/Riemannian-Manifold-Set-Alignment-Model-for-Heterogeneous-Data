@@ -1,0 +1,27 @@
+{
+  "n_subjects_total": 29,
+  "n_subjects_ok": 29,
+  "n_subjects_failed": 0,
+  "summary": {
+    "paired_trials": {
+      "mean": 60.0,
+      "std": 0.0
+    },
+    "mean_paired_distance_pre": {
+      "mean": 40.99587149824482,
+      "std": 1.7958381983395546
+    },
+    "mean_paired_distance_post": {
+      "mean": 1.9960982058023473,
+      "std": 0.09988523307197886
+    },
+    "distance_reduction_ratio": {
+      "mean": 0.04877803793540791,
+      "std": 0.003199062255062726
+    },
+    "mean_canonical_correlation": {
+      "mean": 0.7822237575827771,
+      "std": 0.02124663789263614
+    }
+  }
+}

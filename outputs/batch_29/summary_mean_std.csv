@@ -1,0 +1,6 @@
+﻿metric,mean,std
+paired_trials,60.000000,0.000000
+mean_paired_distance_pre,40.995871,1.795838
+mean_paired_distance_post,1.996098,0.099885
+distance_reduction_ratio,0.048778,0.003199
+mean_canonical_correlation,0.782224,0.021247
